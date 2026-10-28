@@ -1,0 +1,10 @@
+Sam Ortiz
+B.E. Information Technology, 2027
+
+Experience
+Frontend Developer Intern - React and TypeScript, built REST API integrations, CSS and HTML
+
+Projects
+- Personal portfolio site with Node.js backend, deployed on AWS
+
+Skills: JavaScript, TypeScript, React, Node.js, HTML, CSS, Git

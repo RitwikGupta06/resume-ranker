@@ -1,0 +1,11 @@
+Alex Chen
+B.Tech Computer Science, 2027
+
+Projects
+- Built a text classifier for support tickets using PyTorch and Hugging Face transformers (NLP)
+- Search ranking experiments with scikit-learn and pandas, tracked results in SQL
+
+Experience
+Research Assistant, NLP Lab - trained deep learning models in Python, managed code with Git
+
+Skills: Python, PyTorch, scikit-learn, pandas, NumPy, SQL, Git, Docker

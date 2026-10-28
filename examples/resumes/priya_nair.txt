@@ -1,0 +1,8 @@
+Priya Nair
+B.S. Data Science, 2026
+
+Experience
+Data Analyst Intern - built dashboards in Tableau and Excel, wrote SQL queries for weekly reports
+Statistics coursework, regression and hypothesis testing in Python with pandas
+
+Skills: Python, SQL, pandas, Tableau, Excel, statistics

@@ -1,0 +1,13 @@
+Machine Learning Intern - Summer 2027
+
+We're looking for an ML intern to help build our search ranking models.
+
+Requirements:
+- Strong Python skills
+- Experience with PyTorch or TensorFlow
+- Familiarity with scikit-learn, pandas and NumPy
+- Comfortable with SQL and Git
+
+Nice to have:
+- NLP experience
+- Docker, AWS

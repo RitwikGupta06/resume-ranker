@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume-ranker"
+version = "0.1.0"
+description = "Rank resumes against a job description using local models only"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Ritwik Gupta" }]
+dependencies = [
+    "pymupdf>=1.24",
+    "python-docx>=1.1",
+    "scikit-learn>=1.4",
+    "rank-bm25>=0.2.2",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+# embeddings come in phase 3, kept separate so CI stays light until then
+embed = ["sentence-transformers>=3.0"]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.6", "mypy>=1.11"]
+
+[project.scripts]
+resume-ranker = "rater.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rater*"]
+
+[tool.setuptools.package-data]
+rater = ["data/*.txt"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

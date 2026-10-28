@@ -1,0 +1,8 @@
+Maya Iyer
+M.S. Computer Science, 2027
+
+Experience
+ML Engineering Intern - productionized TensorFlow models, served with FastAPI in Docker on AWS
+Built feature pipelines in Python with NumPy and pandas, SQL on PostgreSQL
+
+Skills: Python, TensorFlow, Keras, scikit-learn, NumPy, pandas, SQL, Docker, AWS, Git

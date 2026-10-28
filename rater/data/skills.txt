@@ -1,0 +1,68 @@
+# canonical | aliases...
+# starter list, good enough until the ESCO taxonomy is wired in
+
+# languages
+python
+java
+javascript | js
+typescript | ts
+c++ | cpp
+c#
+golang
+rust
+sql
+scala
+kotlin
+swift
+bash | shell scripting
+
+# ml / data
+machine learning | ml
+deep learning
+nlp | natural language processing
+computer vision
+pytorch
+tensorflow
+keras
+scikit-learn | sklearn
+pandas
+numpy
+spark | pyspark | apache spark
+hadoop
+airflow
+data analysis
+statistics
+tableau
+power bi
+excel
+
+# web / backend
+react | react.js | reactjs
+node.js | nodejs | node
+fastapi
+django
+flask
+spring | spring boot
+rest api | rest apis | restful
+graphql
+html
+css
+
+# infra
+docker
+kubernetes | k8s
+aws | amazon web services
+gcp | google cloud
+azure
+terraform
+ci/cd
+github actions
+linux
+git
+
+# databases
+postgresql | postgres
+mysql
+mongodb
+redis
+elasticsearch
